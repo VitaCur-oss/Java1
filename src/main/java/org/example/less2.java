@@ -4,8 +4,12 @@ package org.example;
 //        Основание 33, стапень 15, результат равен
 //        Основание 4, стапень 7, результат равен
 
-public class lesson1 {
+public class less2 {
     public static void main(String[] args) {
+        print_string("Основание -5, стапень 3, результат равен");
+        print_string("Основание 127, стапень 2, результат равен");
+        print_string("Основание 33, стапень 15, результат равен");
+        print_string("Основание 4, стапень 7, результат равен");
 
     }
     private static void print_string(String s) {
@@ -23,4 +27,6 @@ public class lesson1 {
 
 
     }
+
 }
+
