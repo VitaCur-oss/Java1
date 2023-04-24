@@ -10,7 +10,6 @@ public class less2 {
         print_string("Основание 127, стапень 2, результат равен");
         print_string("Основание 33, стапень 15, результат равен");
         print_string("Основание 4, стапень 7, результат равен");
-
     }
     private static void print_string(String s) {
 
@@ -19,10 +18,10 @@ public class less2 {
         String[] m1_2 = m1[1].split(" ");
 
         String a = m1_1[1];
-        Integer a_int = Integer.parseInt(a);
+        int a_int = Integer.parseInt(a);
         String b = m1_2[1];
-        Integer b_int = Integer.parseInt(b);
-        Double result = Math.pow(a_int, b_int);
+        int b_int = Integer.parseInt(b);
+        double result = Math.pow(a_int, b_int);
         System.out.println("Основание " + a + ", стапень " + b + ", результат равен " + Math.round(result));
     }
 
