@@ -24,7 +24,6 @@ public class less2 {
         Integer b_int = Integer.parseInt(b);
         Double result = Math.pow(a_int, b_int);
         System.out.println("Основание " + a + ", стапень " + b + ", результат равен " + Math.round(result));
-
     }
 
 }
