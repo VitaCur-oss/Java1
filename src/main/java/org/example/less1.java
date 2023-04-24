@@ -49,7 +49,6 @@ public class less1 {
                 for (int j = 0; j < temp.length-1; j++) {
                     temp[j] = m2[j];
                 }
-
                 m2 = temp;
             }
         }
